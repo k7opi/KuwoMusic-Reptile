@@ -1,0 +1,10 @@
+一、搜索
+http://www.kuwo.cn/api/www/search/searchMusicBykeyWord?key=周杰伦&pn=1&rn=30
+
+二、获取musicrid
+data.list[0].rid
+如7149583
+
+三、拼接url
+http://www.kuwo.cn/url?format=mp3&rid=7149583&response=url&type=convert_url3&br=320kmp3
+其中参数rid为上面的rid
